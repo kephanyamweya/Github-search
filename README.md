@@ -1,27 +1,41 @@
-# GithubSearch
+# Github-search App
+#### A simple github search app, July 25th, 2021
+####  By **Kepha Nyamweya**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
+github repository :https://github.com/kephanyamweya/Github-search.git
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Github-search App is a simple application that can be used by Github users.
 
-## Code scaffolding
+It allows users to enter a GitHub username into a form,submit it, and see names and descriptions of that person's public repositories. One can also look for repositories.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+On entering the username, it displays the profile picture of the user, numbers of followers, those following, public gists and public repos.
 
-## Build
+There is a View project on Github' button which when clicked, directs to the github page of the username owner.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Behavior Driven Development (BDD)
+|Behavior | Input | Output|
+|---------| ------|-------|
+|Enter git username| Input "github username" i.e kephanyamweya| Should display avatar,followers,following,public gists and public repos |
+| View project in github | Click on the button | Display specific repo on github |
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Preview
+**[Click here](https://kephanyamweya.github.io/Github-search)** to see the live site.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Known Bugs
+There are no known bugs at the moment. If found, please reach me at kephanyamweya0@gmail.com
 
-## Further help
+## Technologies Used
+    1. HTML
+    2. CSS
+    3. Bootstrap
+    4. Angular
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Support and contact details
+Contact me at kephanyamweya@gmail.com for any comments, reviews or contributions.
+
+### Licence
+Copyright (c) **kepha nyamweya**
